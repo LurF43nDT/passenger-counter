@@ -6,7 +6,7 @@ let count = 0
 
 function increment() {
     console.log("clicked")
-    count = count + 1
+    count += 1
     countEL.innerText = count
 }
 
