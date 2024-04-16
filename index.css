@@ -7,8 +7,15 @@ button{
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
 }
 
 #increment-btn{
     background: rgba(0, 64, 255, 0.416);
+}
+
+#save-btn{
+    background: green;
+
 }
